@@ -6,7 +6,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import os
 import numpy as np
 
-ROOT_PATH = 'D:/1 新天/数字运营部/测试文档/SZ185 通用故障可视化/'
+ROOT_PATH = 'D:/github_repository/warning_effect_evaluation/'
 # 读取故障表数据
 def read_fault_data():
     return pd.read_csv(ROOT_PATH+'sz185_故障.csv')
